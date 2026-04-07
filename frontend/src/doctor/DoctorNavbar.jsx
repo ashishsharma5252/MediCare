@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { navbarStylesDr } from "../assets/dummyStyles";
-import logo from "../assets/LOGO.PNG";
+import logo from "../assets/logo.png";
 import { NavLink, useLocation, useParams } from "react-router-dom";
 import { Calendar, Edit, Home, LogOut, Menu, X } from "lucide-react";
 
