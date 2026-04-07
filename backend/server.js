@@ -11,7 +11,12 @@ import serviceAppointmentRouter from "./routes/serviceAppointmentRoute.js";
 const app = express();
 const port = process.env.PORT || 6000;
 
-const allowedOrigins = ["https://medicareashish.netlify.app", "https://medicareashish2.netlify.app"];
+const allowedOrigins = [
+  "https://medicareashish.netlify.app",
+  "https://medicareashish2.netlify.app",
+  "http://localhost:5173",
+  "http://localhost:5174",
+];
 
 // middlewares
 app.use(
@@ -24,7 +29,7 @@ app.use(
       return callback(new Error("Not allowed by CORS"));
     },
     credentials: true,
-    method: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
   }),
 );
