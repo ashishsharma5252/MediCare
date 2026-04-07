@@ -58,7 +58,7 @@ function normalizeService(doc) {
   };
 }
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://medicare-s6gn.onrender.com";
 
 const ServiceDashboard = ({ services: servicesProp = null }) => {
   const [services, setServices] = useState(

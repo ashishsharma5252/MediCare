@@ -8,7 +8,7 @@ import { ArrowLeft } from "lucide-react";
 const STORAGE_KEY = "doctorToken_v1";
 
 const LoginPage = () => {
-  const API_BASE = "http://localhost:5000";
+  const API_BASE = "https://medicare-s6gn.onrender.com";
   const [formData, setFormData] = useState({ email: "", password: "" });
   const [busy, setBusy] = useState(false);
   const navigate = useNavigate();

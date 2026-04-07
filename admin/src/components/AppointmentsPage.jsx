@@ -6,7 +6,7 @@ import {
 } from "../assets/dummyStyles";
 import { BadgeIndianRupee, Calendar, Search } from "lucide-react";
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://medicare-s6gn.onrender.com";
 
 // HELPER FUNCTIONS
 // this function return the date as 22 may 2026
