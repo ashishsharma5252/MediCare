@@ -11,7 +11,7 @@ import serviceAppointmentRouter from "./routes/serviceAppointmentRoute.js";
 const app = express();
 const port = process.env.PORT || 6000;
 
-const allowedOrigins = ["http://localhost:5173", "http://localhost:5174"];
+const allowedOrigins = ["https://medicareashish.netlify.app", "https://medicareashish2.netlify.app"];
 
 // middlewares
 app.use(
